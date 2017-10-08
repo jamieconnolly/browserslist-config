@@ -1,5 +1,7 @@
 # browserslist-config
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/jamieconnolly/browserslist-config.svg)](https://greenkeeper.io/)
+
 [![Build Status][build-status-image]][build-status-url]
 [![MIT License][license-image]][license-url]
 
