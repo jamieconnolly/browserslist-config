@@ -1,9 +1,19 @@
 'use strict';
 
-const isPlainObj = require('is-plain-obj');
+const browserslist = require('browserslist');
+
+beforeEach(() => {
+  jest.resetModules();
+});
 
 it('should export an object', () => {
   const config = require('../index');
+  expect(Array.isArray(config)).toBe(true);
+});
 
-  expect(isPlainObj(config)).toBe(true);
+it('should not contain invalid ??', () => {
+  jest.doMock('@jamieconnolly/browserslist-config', () => require('../index'), { virtual: true });
+
+  const result = browserslist(['extends @jamieconnolly/browserslist-config']);
+  expect(result).toBeTruthy();
 });
