@@ -4,6 +4,28 @@
 [![Dependency Status][dependency-status-image]][dependency-status-url]
 [![MIT License][license-image]][license-url]
 
+> My own opinionated Browserslist config.
+
+## Installation
+
+```
+$ npm install --save-dev @jamieconnolly/browserslist-config
+```
+
+## Usage
+
+To get started, add this to your `package.json` file:
+
+```json
+"browserslist": [
+  ["extends @jamieconnolly/browserslist-config"]
+]
+```
+
+## License
+
+[MIT License][license-url]
+
 [build-status-image]: https://api.travis-ci.org/jamieconnolly/browserslist-config.svg?branch=master
 [build-status-url]: https://travis-ci.org/jamieconnolly/browserslist-config
 
