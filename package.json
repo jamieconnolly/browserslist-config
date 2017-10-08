@@ -1,0 +1,18 @@
+{
+  "name": "@jamieconnolly/browserslist-config",
+  "version": "0.0.0",
+  "description": "My own opinionated Browserslist config",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "https://github.com/jamieconnolly/browserslist-config",
+  "keywords": [
+    "browserslist",
+    "browserslist-config"
+  ],
+  "author": "Jamie Connolly (https://github.com/jamieconnolly)",
+  "license": "MIT",
+  "bugs": "https://github.com/jamieconnolly/browserslist-config/issues",
+  "homepage": "https://github.com/jamieconnolly/browserslist-config#readme"
+}
