@@ -1,6 +1,6 @@
 {
   "name": "@jamieconnolly/browserslist-config",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "My own opinionated Browserslist config",
   "main": "index.js",
   "scripts": {
