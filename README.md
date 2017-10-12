@@ -1,7 +1,7 @@
 # browserslist-config
 
-[![Build Status][build-status-image]][build-status-url]
-[![Dependency Status][dependency-status-image]][dependency-status-url]
+[![Build status][build-status-image]][build-status-url]
+[![Dependency status][dependency-status-image]][dependency-status-url]
 [![MIT License][license-image]][license-url]
 [![Version][version-image]][version-url]
 
