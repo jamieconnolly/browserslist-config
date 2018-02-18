@@ -18,7 +18,7 @@
   "bugs": "https://github.com/jamieconnolly/browserslist-config/issues",
   "homepage": "https://github.com/jamieconnolly/browserslist-config#readme",
   "devDependencies": {
-    "browserslist": "^2.5.1",
+    "browserslist": "^3.1.1",
     "eslint": "^4.8.0",
     "eslint-plugin-jest": "^21.5.0",
     "eslint-plugin-node": "^5.2.0",
